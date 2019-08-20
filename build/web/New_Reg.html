@@ -1,0 +1,97 @@
+	<!DOCTYPE html>
+	<html>
+	    <head>
+	        <title>NEW REGISTRATION</title>
+	        <meta charset="UTF-8">
+	        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	        <link rel="stylesheet" href="css/mycss.css">
+	        <style>
+				h1 {
+				    color: white;
+				    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+				}
+			</style>
+
+	    </head>
+	    <body style="background-image: url('img.jpg') ;
+				width: 1366px;
+				height:768px;">
+	        <div>
+	            <br>
+	                <h1>REGISTRATION FORM</h1>
+	                <br>
+	                <form class="form-container" method="post">
+	                    <div class="form-group row">
+							  <div class="col-xs-3">
+							    <label for="firstname"><h4>First Name</h4></label>
+							    <input class="form-control" name="firstname" type="text">
+							  </div>
+							  <div class="col-xs-3">
+							    <label for="middlename"><h4>Middle Name</h4></label>
+							    <input class="form-control" name="middlename" type="text">
+							  </div>
+							  <div class="col-xs-3">
+							    <label for="lastname"><h4>Last Name</h4></label>
+							    <input class="form-control" name="lastname" type="text">
+							  </div>
+						</div>
+
+						<div class="form-group">
+	                		<label for="dob"><h4>Date of Birth:</h4></label>
+	                		<input type="date" name="bday">
+	                		
+	                	</div>
+
+
+						<div class="form-group row ">
+							<div class="col-xs-5">
+			                    <label for="email"><h4>Email:</h4></label>
+			                    <input type="email" class="form-control" placeholder="idkidkidk@gmail.com" name="email">
+			                </div>
+			            </div>
+			            <div class="form-group row ">
+			                <div class="col-xs-3">
+			                    <label for="mobile"><h4>Mobile No:</h4></label>
+			                    <input type="mobile" class="form-control" placeholder="9999999999" name="mobile">
+			                </div>
+			            </div>
+						<div class="form-group row">
+		                    <div class="col-xs-4">
+		                    	<label for="username"><h4>Username:</h4></label>
+		                        <input type="username" class="form-control" placeholder="username" name="username">
+		                    </div>
+
+		                	<div class="col-xs-4">
+		                        <label for="password"><h4>Password:</h4></label>
+		                        <input type="password" class="form-control" placeholder="password" name="password">
+	                    	</div>
+	                	</div>
+
+	                	<div class="form-group">
+	                		<div class="form-group row">
+		                		<div class="col-xs-2">
+		                			<label for="address"><h4>Address:</h4></label>
+			                		<select class="form-control" id="address">
+			                			<option>City</option>
+			                			<option value="Nagpur">Nagpur</option>
+			                			<option value="Hyderabad">Hyderabad</option>
+			                			<option value="Pune">Pune</option>
+			                			<option value="Kolkata">Kolkata</option>
+			                		</select>
+		                		</div>
+
+		                		<div class="col-xs-2">
+		                			<label for="address"><h4>PinCode:</h4></label>
+			                		<input type="PinCode" class="form-control" placeholder="000000" name="PinCode">
+		                		</div>
+	                	</div>
+
+
+	                    <center><button type="submit" class="btn btn-primary ">Submit</button></center>
+	                    
+	                </form>
+	                
+	        </div>
+	    </body>
+	</html>
